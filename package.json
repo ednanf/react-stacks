@@ -1,12 +1,12 @@
 {
   "name": "react-swiftstacks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple stack system inspired by SwiftUI for React.",
   "license": "MIT",
   "author": "Ednan Rogério Frizzera Filho",
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "style": "./dist/index.css",
   "files": [
@@ -15,8 +15,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./styles.css": "./dist/index.css"
   },
