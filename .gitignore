@@ -14,6 +14,7 @@ psd
 thumb
 sketch
 
+
 ### macOS template
 # General
 .DS_Store
@@ -42,3 +43,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Build generated files
+dist

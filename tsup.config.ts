@@ -7,5 +7,7 @@ export default defineConfig({
     splitting: false,
     sourcemap: true,
     clean: true,
-    injectStyle: true,
+    loader: {
+        '.css': 'local-css',
+    },
 });
