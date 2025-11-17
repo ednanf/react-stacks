@@ -1,9 +1,19 @@
 {
   "name": "react-swiftstacks",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple stack system inspired by SwiftUI for React.",
   "license": "MIT",
   "author": "Ednan Rogério Frizzera Filho",
+  "keywords": [
+    "react",
+    "component",
+    "library",
+    "layout",
+    "stack",
+    "flexbox",
+    "ui",
+    "zero-dependency"
+  ],
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
