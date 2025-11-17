@@ -1,4 +1,4 @@
-# react-stacks
+# react-swiftstacks
 
 A simple, flexible stack layout system for React inspired by SwiftUI. Build complex layouts with clean, declarative
 components.
@@ -6,13 +6,13 @@ components.
 ## Installation
 
 ```bash
-npm install react-stacks
+npm install react-swiftstacks
 ```
 
 or
 
 ```bash
-yarn add react-stacks
+yarn add react-swiftstacks
 ```
 
 ## Features
@@ -27,8 +27,8 @@ yarn add react-stacks
 ## Quick Start
 
 ```jsx
-import {HStack, VStack, ZStack} from "react-stacks";
-import "react-stacks/styles.css";
+import {HStack, VStack, ZStack} from "react-swiftstacks";
+import "react-swiftstacks/styles.css";
 
 function App() {
     return (
@@ -123,8 +123,8 @@ The `gap`, `margin`, and `padding` props can accept a spacing key for standardiz
 ## Usage Example
 
 ```jsx
-import {HStack, VStack, ZStack} from "react-stacks";
-import "react-stacks/styles.css";
+import {HStack, VStack, ZStack} from "react-swiftstacks";
+import "react-swiftstacks/styles.css";
 
 export const ProfileCard = () => (
     <VStack

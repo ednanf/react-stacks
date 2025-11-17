@@ -18,6 +18,7 @@
     "resolveJsonModule": true
   },
   "include": [
-    "src"
+    "src",
+    "tsup.config.ts"
   ]
 }
