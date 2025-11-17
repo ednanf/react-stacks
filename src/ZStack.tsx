@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Stack.module.css';
+import './Stack.css';
 import {SPACING_SCALE, type SpacingKey} from './spacing';
 
 interface ZStackProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -25,9 +25,9 @@ export const ZStack: React.FC<ZStackProps> = ({
             : value;
 
     const classes = [
-        styles.zstack,
-        center ? styles.centered : '',
-        textAlign ? styles[`textAlign${textAlign.charAt(0).toUpperCase() + textAlign.slice(1)}`] : '',
+        'swiftstack-zstack',
+        center ? 'swiftstack-centered' : '',
+        textAlign ? `swiftstack-textAlign${textAlign.charAt(0).toUpperCase() + textAlign.slice(1)}` : '',
         className,
     ]
         .filter(Boolean)

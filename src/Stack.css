@@ -1,79 +1,80 @@
-.hstack {
+.swiftstack-hstack {
     display: flex;
     flex-direction: row;
 }
 
-.vstack {
+.swiftstack-vstack {
     display: flex;
     flex-direction: column;
 }
 
-.zstack {
+.swiftstack-zstack {
     position: relative;
 }
 
 /* Allow layering in ZStack */
-.zstack > * {
+.swiftstack-zstack > * {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.zstack > *:first-child {
+.swiftstack-zstack > *:first-child {
     position: relative; /* base layer */
 }
 
 /* Alignment utility modifiers */
-.alignStart {
+.swiftstack-alignStart {
     align-items: flex-start;
 }
 
-.alignCenter {
+.swiftstack-alignCenter {
     align-items: center;
 }
 
-.alignEnd {
+.swiftstack-alignEnd {
     align-items: flex-end;
 }
 
-.justifyStart {
+.swiftstack-justifyStart {
     justify-content: flex-start;
 }
 
-.justifyCenter {
+.swiftstack-justifyCenter {
     justify-content: center;
 }
 
-.justifyEnd {
+.swiftstack-justifyEnd {
     justify-content: flex-end;
 }
 
-.justifyBetween {
+.swiftstack-justifyBetween {
     justify-content: space-between;
 }
 
-.justifyAround {
+.swiftstack-justifyAround {
     justify-content: space-around;
 }
 
-.wrap {
+.swiftstack-wrap {
     flex-wrap: wrap;
 }
 
-.centered {
+.swiftstack-centered {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.textAlignLeft {
+.swiftstack-textAlignLeft {
     text-align: left;
 }
 
-.textAlignCenter {
+.swiftstack-textAlignCenter {
     text-align: center;
 }
 
-.textAlignRight {
+.swiftstack-textAlignRight {
     text-align: right;
 }
+

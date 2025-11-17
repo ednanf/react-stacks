@@ -28,7 +28,6 @@ yarn add react-swiftstacks
 
 ```jsx
 import {HStack, VStack, ZStack} from "react-swiftstacks";
-import "react-swiftstacks/styles.css";
 
 function App() {
     return (
@@ -124,7 +123,6 @@ The `gap`, `margin`, and `padding` props can accept a spacing key for standardiz
 
 ```jsx
 import {HStack, VStack, ZStack} from "react-swiftstacks";
-import "react-swiftstacks/styles.css";
 
 export const ProfileCard = () => (
     <VStack

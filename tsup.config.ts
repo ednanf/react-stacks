@@ -8,8 +8,9 @@ const config: Options = {
     sourcemap: true,
     clean: true,
     loader: {
-        '.css': 'local-css',
+        '.css': 'css',
     },
+    injectStyle: true,
 };
 
 // noinspection JSUnusedGlobalSymbols

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Stack.module.css';
+import './Stack.css';
 import {SPACING_SCALE, type SpacingKey} from './spacing';
 
 interface HStackProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -33,14 +33,12 @@ export const HStack: React.FC<HStackProps> = ({
             : value;
 
     const classes = [
-        styles.hstack,
-        styles[`align${align.charAt(0).toUpperCase() + align.slice(1)}`],
-        styles[`justify${justify.charAt(0).toUpperCase() + justify.slice(1)}`],
-        wrap ? styles.wrap : '',
+        'swiftstack-hstack',
+        `swiftstack-align${align.charAt(0).toUpperCase() + align.slice(1)}`,
+        `swiftstack-justify${justify.charAt(0).toUpperCase() + justify.slice(1)}`,
+        wrap ? 'swiftstack-wrap' : '',
         textAlign
-            ? styles[
-                `textAlign${textAlign.charAt(0).toUpperCase() + textAlign.slice(1)}`
-                ]
+            ? `swiftstack-textAlign${textAlign.charAt(0).toUpperCase() + textAlign.slice(1)}`
             : '',
         className,
     ]
